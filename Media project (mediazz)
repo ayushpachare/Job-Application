@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+
+<html>
+
+ <head>
+
+  </head>
+
+ <body>
+  
+   <header>
+    <h1>Mediazz</h1>
+   </header>
+
+   <table>
+        
+           <tr>
+                <td>
+                    <img src="profile photo.jpeg" alt="ayush" height="125px" weight="125px">
+                    <nav>
+                        <ul>
+                            <li><a href="#trance">Trance music </a></li>
+                            <li><a href="#eng">English music </a></li>
+                            <li><a href="">DBMS Video</a></li>
+                            <li><a href="">DSA video</a></li>
+                            <li><a href="">web developedment video</a></li>
+                        </ul>
+                    </nav>
+                </td>
+           </tr>
+             
+   </table>
+
+   <section>
+    <h2>About MEDIAZZ</h2>
+    <p>Mediazz is an innovative startup poised to transform your music experience through its cutting-edge web application. Designed for music enthusiasts and casual listeners alike, Mediazz offers a seamless platform to discover and enjoy stunning music videos and captivating songs. With an emphasis on high-quality visuals and an intuitive user interface, Mediazz makes it effortless to find your favorite tracks, explore new genres, and immerse yourself in a rich audio-visual experience. Whether you're seeking the latest hits or hidden gems, Mediazz ensures that every song and video is presented beautifully, enhancing your listening pleasure with every click.</p>
+   </section>
+ 
+   <section><h2>Additional Media</h2>
+    <br>
+    <audio src="audio.mp3" controls></audio>
+    <video src="video.mp4" controls></video>
+    </section>
+
+    <section id="trance">
+        <h2>Trance music </h2>
+
+        <br>
+
+     <table>
+        <tr>
+            <td>
+                <iframe src="https://www.youtube.com/embed/-jK6zo8LIT4" height="175" width="350"></iframe>
+            </td>
+            <td>
+                <iframe src="https://www.youtube.com/embed/FHVD9ft_ANw"  height="175" width="350"></iframe>
+            </td>
+            <td>
+                <iframe src="https://www.youtube.com/embed/4blkChcgUQE"  height="175" width="350"></iframe>
+            </td>
+        </tr>
+        <tr>
+            <td>   <iframe src="https://www.youtube.com/embed/4blkChcgUQE"  height="175" width="350"></iframe></td>
+            <td><iframe src="https://www.youtube.com/embed/FHVD9ft_ANw"  height="175" width="350"></iframe></td>
+            <td> <iframe src="https://www.youtube.com/embed/-jK6zo8LIT4" height="175" width="350"></iframe></td>
+        </tr>
+     </table>
+
+    </section>
+
+
+    <section id="eng"></section>
+        <h2>English music </h2>
+
+        <br>
+
+     <table>
+        <tr>
+            <td>
+                <iframe src="https://www.youtube.com/embed/4blkChcgUQE" height="175" width="350"></iframe>
+            </td>
+            <td>
+                <iframe src="https://www.youtube.com/embed/HVD9ft_ANw"  height="175" width="350"></iframe>
+            </td>
+            <td>
+                <iframe src="https://www.youtube.com/embed/4blkChcgUQE"  height="175" width="350"></iframe>
+            </td>
+        </tr>
+        <tr>
+            <td>   <iframe src="https://www.youtube.com/embed/4blkChcgUQE"  height="175" width="350"></iframe></td>
+            <td><iframe src="https://www.youtube.com/embed/FHVD9ft_ANw"  height="175" width="350"></iframe></td>
+            <td> <iframe src="https://www.youtube.com/embed/-jK6zo8LIT4" height="175" width="350"></iframe></td>
+        </tr>
+     </table>
+     
+    </section>
+
+
+    <section id="trance"></section>
+        <h2>Trance music </h2>
+
+        <br>
+
+     <table>
+        <tr>
+            <td>
+                <iframe src="https://www.youtube.com/embed/-jK6zo8LIT4" height="175" width="350"></iframe>
+            </td>
+            <td>
+                <iframe src="https://www.youtube.com/embed/FHVD9ft_ANw"  height="175" width="350"></iframe>
+            </td>
+            <td>
+                <iframe src="https://www.youtube.com/embed/4blkChcgUQE"  height="175" width="350"></iframe>
+            </td>
+        </tr>
+        <tr>
+            <td>   <iframe src="https://www.youtube.com/embed/4blkChcgUQE"  height="175" width="350"></iframe></td>
+            <td><iframe src="https://www.youtube.com/embed/FHVD9ft_ANw"  height="175" width="350"></iframe></td>
+            <td> <iframe src="https://www.youtube.com/embed/-jK6zo8LIT4" height="175" width="350"></iframe></td>
+        </tr>
+     </table>
+     
+    </section>
+
+
+    <section id="trance"></section>
+        <h2>Trance music </h2>
+
+        <br>
+
+     <table>
+        <tr>
+            <td>
+                <iframe src="https://www.youtube.com/embed/-jK6zo8LIT4" height="175" width="350"></iframe>
+            </td>
+            <td>
+                <iframe src="https://www.youtube.com/embed/FHVD9ft_ANw"  height="175" width="350"></iframe>
+            </td>
+            <td>
+                <iframe src="https://www.youtube.com/embed/4blkChcgUQE"  height="175" width="350"></iframe>
+            </td>
+        </tr>
+        <tr>
+            <td>   <iframe src="https://www.youtube.com/embed/4blkChcgUQE"  height="175" width="350"></iframe></td>
+            <td><iframe src="https://www.youtube.com/embed/FHVD9ft_ANw"  height="175" width="350"></iframe></td>
+            <td> <iframe src="https://www.youtube.com/embed/-jK6zo8LIT4" height="175" width="350"></iframe></td>
+        </tr>
+     </table>
+     
+    </section>
+
+
+</body>
+
+</html>
