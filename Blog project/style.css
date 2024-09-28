@@ -1,0 +1,143 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+
+.container{
+    max-width:66vw;
+    border-radius:25px;
+     padding: 2rem /*top,bootom*/ 1rem /*left,right*/ ; 
+     margin: 0/*top,bootom*/ auto /*left,right*/ ;
+     background-color: rgb(255, 255, 255);
+}
+
+.header-container{
+    margin-bottom :2.5rem; 
+}
+
+.header-title{
+    margin-bottom: 1rem ;
+    font-size: 1.7rem;
+    line-height: 2rem;
+    font-weight:700 ;
+    text-align: center;
+}
+
+.header-p{
+    max-width: 768px;
+    text-align: center;
+    color: black;
+    margin: 0 auto ;
+}
+
+.main-container{
+    display: grid;
+
+    gap: 1.5rem;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.card-container{
+    display: flex;
+    flex-direction: column;
+    border: 1px black solid;
+    border-radius: 5px;    
+}
+
+.card-container-img{
+    position: relative;
+    overflow: hidden;
+    height: 14rem;
+    border-radius:5px;
+
+}
+
+.card-img{
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    width: 100% ;
+}
+
+.card-titel-container{
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+}
+
+.card-container :hover .card-img{
+    transform:scale(1.1);
+    transition-duration:200ms;
+}
+
+.card-title{
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin-bottom: 0.3rem;
+    color: rgb(25, 23, 23);
+}
+
+.card-title-anchor:hover .card-title{
+    color:rgb(0, 0, 209);
+}
+
+.card-body{
+  color: rgb(27, 25, 25);
+  font-size: 1rem;
+}
+
+.card-footer-cotainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+    align-items: flex-end;
+}
+
+.author-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.author-avatar-container{
+    height: 2rem;
+    width: 2rem;
+    overflow: hidden;
+    border: 1px black solid;
+    border-radius: 50%;
+    background-color: aliceblue;
+}
+
+.author-info-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.author-name{
+    color: blue;
+}
+
+.author-date{
+    color: rgb(35, 31, 31);
+}
+
+.card-tag-container{
+    font-size: 0.9rem;
+    border: 1px black solid; 
+    
+border-radius: 2px;
+line-height: 1.3rem;
+padding: 0.25rem 0.5rem;
+color: grey;
+    
+}
